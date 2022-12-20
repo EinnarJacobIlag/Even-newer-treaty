@@ -1,0 +1,97 @@
+/* 
+  This makes the background of all my pages ghostwhite,
+  which is an off-white colour
+
+  This makes the the space between the body, the end of the screen
+  absolutely nothing.
+*/
+body {
+  background-color: ghostwhite;
+
+  margin: 0;
+}
+/*
+  This makes the color of any text under my header tag
+  an off-white. It also makes the background of my header
+  #cc61ce, a nice orange
+
+  This adds 10 pixels to the bottom of the header so that
+  the background colour could reach out more.
+
+  This makes the position of everything inside of the header
+  exactly the same no matter where you scroll. This also
+  makes the header reach the end of the screen on both the
+  left and the right.
+*/
+header {
+  color: aliceblue;
+  background-color: #cc6c1e;
+
+  padding-bottom: 10px;
+
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+/*
+  This makes the size of the text 40px. This also
+  moves text 10 px to the right and 10 px down from
+  the original position
+*/
+h1 {
+  font-size: 40px;
+  transform: translate(10px, 10px);
+}
+/*
+  This removes any organization aspect (points, numbers, letters,)
+  from a list and also moves everything under the nav to the right.
+
+  This moves the text 10px up and 50 px to the left from the original
+  position
+*/
+nav {
+  list-style: none;
+  text-align: right;
+
+  transform: translate(-10px, -50px);
+}
+/*
+  This changes the colour of the anchors to aliceblue, a nice white
+  with a hint of blue
+*/
+nav a {
+  color: aliceblue;
+}
+/*
+  This changes the size of the text to 25 px. This also changes
+  anything under nav li to an inline-block.
+
+  This adds 20px to the left of space between everything under
+  nav li.
+*/
+nav li {
+  font-size: 25px;
+  display: inline-block;
+
+  padding-left: 20px;
+}
+/*
+  This adds 10 px of margin in all directions, pushing futher
+  content away.
+
+  This changes the color of the background to ghostwhite, an
+  off-white colour. This also adds a 1 px border with solid lines
+  around the div, this also rounds the corner of the border by 10px.
+
+  This adds 10px of padding in all directions, moving the border
+  further away from the content.
+*/
+div {
+  margin: 10px;
+
+  background-color: ghostwhite;
+  border: 1px solid black;
+  border-radius: 10px;
+
+  padding: 10px;
+}
