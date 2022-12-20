@@ -10,6 +10,7 @@ body {
 
   margin: 0;
 }
+
 /*
   This makes the color of any text under my header tag
   an off-white. It also makes the background of my header
@@ -33,6 +34,7 @@ header {
   left: 0;
   right: 0;
 }
+
 /*
   This makes the size of the text 40px. This also
   moves text 10 px to the right and 10 px down from
@@ -42,6 +44,7 @@ h1 {
   font-size: 40px;
   transform: translate(10px, 10px);
 }
+
 /*
   This removes any organization aspect (points, numbers, letters,)
   from a list and also moves everything under the nav to the right.
@@ -55,6 +58,7 @@ nav {
 
   transform: translate(-10px, -50px);
 }
+
 /*
   This changes the colour of the anchors to aliceblue, a nice white
   with a hint of blue
@@ -62,6 +66,7 @@ nav {
 nav a {
   color: aliceblue;
 }
+
 /*
   This changes the size of the text to 25 px. This also changes
   anything under nav li to an inline-block.
@@ -75,6 +80,7 @@ nav li {
 
   padding-left: 20px;
 }
+
 /*
   This adds 10 px of margin in all directions, pushing futher
   content away.
