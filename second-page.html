@@ -1,0 +1,180 @@
+<!--
+  •Name: Einnar Jacob De Castro Ilag
+  •Course: Web Dev
+  •Teacher: Mr. Hardman
+  •School: Pembina Trails Early College
+  •Date Last Modified: 12/18/22
+  Taken from http://colormind.io/bootstrap/
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page 2</title>
+    <link rel="stylesheet" href="stylesheets/main.css" />
+    <style>
+      /*
+        This adds a bolded effect to everything with the
+        definition id.
+      */
+      #definition {
+        color: #819a91;
+        font-weight: bold;
+      }
+
+      /*
+        This adds an italic effect to everything with the
+        nation-name id.
+      */
+      #nation-name {
+        color: #cb8d27;
+        font-style: italic;
+      }
+
+      /*
+        This makes the size of the font to 40 px, and this also
+        moves the text to the center of the screen.
+      */
+      #map {
+        color: #f0eeed;
+        font-size: 40px;
+        text-align: center;
+      }
+
+      /*
+        This adds 100px to an images margin.
+      */
+      img {
+        margin: 100px;
+      }
+      .div-2 {
+        margin-top: 200px;
+      }
+      /*
+        This adds 70px to the top and 70 pxto the
+        bottom with 10px to all directions to the padding
+        of anything with the class section-1
+      */
+      .section-1 {
+        padding: 10px;
+        padding-top: 250px;
+        padding-bottom: 70px;
+      }
+      .div-3 {
+        background-color: #2d4963;
+        color: #f0eeed;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Treaty 1 (WIP)</h1>
+      <nav>
+        <li><a href="index.html">Home Page</a></li>
+        <li><a id="active" href="second-page.html">What is Treaty 1?</a></li>
+        <li><a href="index.html">Place Holder</a></li>
+      </nav>
+    </header>
+    <main>
+      <!--
+        F6F8F5
+        B4ACAF
+        F37F63
+        C9A584
+        838480
+        This divides the content in the body
+      -->
+      <section class="section-1">
+        <!--
+          This divides the content between the sections
+        -->
+        <div class="div-1">
+          <h2>What is Treaty 1?</h2>
+          <p>
+            <!-- The span lets me style anything inside it-->
+            <span id="definition">Treaty 1</span> was a treaty made on August 3,
+            1871, in <span id="definition">Lower Fort Garry</span> and was able
+            to help establish Western Canada. It was the first treaty out of
+            eleven treaties made and is set in the south of Canada. The
+            negotiations started on July 27, 1871. Indigenous, women, men, and
+            children made camp with 100 tents around Fort-Garry getting info
+            from a translater named James McKay. Treaty 1 was signed by
+            Lieutenant-Governor Adams G. Archibald, Commissioner Simpson, Major
+            A.G. Irvine and eight witnesses. Signatories that the Anishinaabe
+            and the Swampy Cree were Red Eagle, Bird Forever, Flying Down Bird,
+            Centre of Bird's Tail, Flying Round, Whip-poor-will, and Yellow
+            Quill. The treaty was made with the understandment that it will last
+            for
+            <span id="definition"
+              >as long as the sun shines, grass grows, and water flows.</span
+            >
+          </p>
+        </div>
+        <!--
+          This divides the content between the sections
+        -->
+        <div class="div-2">
+          <h2>Who is Apart of Treaty 1?</h2>
+          <p>
+            <!-- The span lets me style anything inside it-->
+            There treaty was made between the Anishinaabe and the Crown. The
+            crown was represented by Archibald, Simpson, and Irvine who were
+            there for the current queen at the time. Queen Victoria, who
+            Archibald referred to as "Great Mother." There were also 7 nations
+            who were apart of treaty 1, and represented the Anishinaabe. They
+            were
+            <span id="nation-name">Peguis First Nation</span>,
+            <span id="nation-name">Sagkeeng First Nation</span>,
+            <span id="nation-name">Brokenhead Ojibway Nation</span>,
+            <span id="nation-name">Roseau River Anishinaabe First Nation</span>,
+            <span id="nation-name">Long Plain First Nation</span>,
+            <span id="nation-name">Sandy Bay Ojibway First Nation</span>, and
+            <span id="nation-name">Swan Lake First Nation</span>. All the 7
+            nations are represented on the Treaty 1 Flag as sun rays.
+          </p>
+        </div>
+      </section>
+      <!--
+        This divides the content in the body
+      -->
+      <section class="section-2">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <!--
+          This divides the content between the sections
+        -->
+        <div class="div-3">
+          <!-- 
+            The id lets me style the heading without affecting other
+            headings under the same tag
+          -->
+          <h2 id="map">Maps of Treaty 1</h2>
+          <!--
+            This lets me add an image to the page from my images folder
+          -->
+          <img
+            src="images/treaty-1.jpg"
+            width="502px"
+            height="326px"
+            alt="This is a map of treaty 1, it has a dashed border indicating the area of Treaty 1. On the bottom of the map there is some white space that shows coordinates and says USA" />
+          <!--
+            This lets me add an image to the page from my images folder
+          -->
+          <img
+            src="images/all-treaty-maps.gif"
+            width="505px"
+            height="333px"
+            alt="This is a map of Canada that is filled with coloured areas indicating where each Treaty is and the year it took place " />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&#169; Einnar Jacob De Castro Ilag</p>
+    </footer>
+  </body>
+</html>

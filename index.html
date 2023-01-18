@@ -1,10 +1,3 @@
-<!--
-  •Name: Einnar Jacob De Castro Ilag
-  •Course: Web Dev
-  •Teacher: Mr. Hardman
-  •School: Pembina Trails Early College
-  •Date Last Modified: 12/18/22
--->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -14,71 +7,27 @@
     <title>Home Page</title>
     <link rel="stylesheet" href="stylesheets/main.css" />
     <style>
-      /*
-        This changes the color of the text to #00c49a,
-        a cyanish colour.
-      */
-      h2 {
-        color: #00c49a;
+      header {
+        z-index: 1;
       }
 
-      /*
-        This adds a bolded effect to everything with the
-        definition id.
-      */
-      #definition {
-        font-weight: bold;
+      .first-image {
+        margin-top: 100px;
       }
 
-      /*
-        This adds an italic effect to everything with the
-        nation-name id.
-      */
-      #nation-name {
-        font-style: italic;
-      }
-
-      /*
-        This adds a 0px unseeable border, it's there to remove the
-        border effect from stylesheets/main.css
-      */
-      .div-3 {
-        border: 0px solid white;
-      }
-
-      /*
-        This makes the size of the font to 40 px, and this also
-        moves the text to the center of the screen.
-      */
-      #map {
-        font-size: 40px;
-        text-align: center;
-      }
-
-      /*
-        This adds 100px to an images margin.
-      */
-      img {
-        margin: 100px;
-      }
-      /*
-        This adds 70px to the top and 70 pxto the
-        bottom with 10px to all directions to the padding
-        of anything with the class section-1
-      */
-      .section-1 {
-        padding: 10px;
-        padding-top: 70px;
-        padding-bottom: 70px;
+      .div-one {
+        margin-top: 300px;
+        margin-bottom: 300px;
       }
     </style>
   </head>
+  <!-- Colour palette from https://www.schemecolor.com/pastel-green-blue-yellow.php-->
   <body>
     <header>
-      <h1>Treaty 1</h1>
+      <h1>Treaty 1 (WIP)</h1>
       <nav>
-        <li><a href="index.html">Home Page</a></li>
-        <li><a href="index.html">Place Holder</a></li>
+        <li><a id="active" href="index.html">Home Page</a></li>
+        <li><a href="second-page.html">What is Treaty 1?</a></li>
         <li><a href="index.html">Place Holder</a></li>
       </nav>
     </header>
@@ -93,80 +42,40 @@
       <br />
       <br />
       <br />
-      <!--
-        This divides the content in the body
-      -->
-      <section class="section-1">
-        <!--
-          This divides the content between the sections
-        -->
-        <div class="div-1">
-          <h2>What is Treaty 1?</h2>
-          <p>
-            <!-- The span lets me style anything inside it-->
-            <span id="definition">Treaty 1</span> was a treaty made in
-            <span id="definition">Lower Fort Garry</span> and established
-            Western Canada. It was the first treaty ever made with 6 more being
-            made to control the land, and stop american invasion. The treaty is
-            to be in place for
-            <span id="definition"
-              >as long as the sun shines, grass grows, and water flows.</span
-            >
-          </p>
-        </div>
-        <!--
-          This divides the content between the sections
-        -->
-        <div class="div-2">
-          <h2>Who is Apart of Treaty 1?</h2>
-          <p>
-            <!-- The span lets me style anything inside it-->
-            There are 7 nations who are apart of treaty 1.
-            <span id="nation-name">Peguis First Nation</span>,
-            <span id="nation-name">Sagkeeng First Nation</span>,
-            <span id="nation-name">Brokenhead Ojibway Nation</span>,
-            <span id="nation-name">Roseau River Anishinaabe First Nation</span>,
-            <span id="nation-name">Long Plain First Nation</span>,
-            <span id="nation-name">Sandy Bay Ojibway First Nation</span>,
-            <span id="nation-name">Swan Lake First Nation</span>. Every nation
-            is represented on the Treaty 1 Flag
-          </p>
+      <nav>
+        <!--<a class="button" href="second-page.html">What Is Treaty 1?</a>-->
+      </nav>
+      <section>
+        <div class="first-image">
+          <!-- Indigenous Services Minister Marc Miller spoke at the 150th anniversary of 
+            the signing of Treaty 1 on Tuesday. He acknowledged trust between Canada and
+            Indigenous people is thin. (Stephanie Cram/CBC) -->
+          <img src="images/home-first.webp" width="auto" height="auto" />
         </div>
       </section>
-      <!--
-        This divides the content in the body
-      -->
-      <section class="section-2">
-        <!--
-          This divides the content between the sections
-        -->
-        <div class="div-3">
-          <!-- 
-            The id lets me style the heading without affecting other
-            headings under the same tag
-          -->
-          <h2 id="map">Maps of Treaty 1</h2>
-          <!--
-            This lets me add an image to the page from my images folder
-          -->
-          <img
-            src="images/treaty-1.jpg"
-            width="712px"
-            height="536px"
-            alt="This is a map of treaty 1, it has a dashed border indicating the area of Treaty 1. On the bottom of the map there is some white space that shows coordinates and says USA" />
-          <!--
-            This lets me add an image to the page from my images folder
-          -->
-          <img
-            src="images/all-treaty-maps.gif"
-            width="715px"
-            height="543px"
-            alt="This is a map of Canada that is filled with coloured areas indicating where each Treaty is and the year it took place " />
+      <section>
+        <div class="div-one">
+          <h2>What is included in Treaty 1?</h2>
+          <p>
+            Each band received a large enough reserve to provide 160 acres for
+            each family of five (or in proportion for smaller or larger
+            families). Each person was given a one-time payment of three whole
+            dollars, and a yearly payment of $15 per family of five. The
+            government also agreed to have a school on each reserve and to
+            forbid the introduction or selling of liquor on the reserves. For
+            the Anishinaabe and Swampy Cree, they were required to “cede,
+            release, surrender, and yield up to her Majesty the Queen” a tract
+            of land described in detail in the treaty: a large amount of
+            present-day southeast and south-central Manitoba, which includes the
+            Red River Valley, and stretching north to the low parts of Lake
+            Manitoba and Lake Winnipeg and along the Assiniboine River to towns
+            in Portage la Prairie and Brandon.
+          </p>
         </div>
       </section>
     </main>
     <footer>
-      <p>&#169; Einnar Jacob De Castro Ilag</p>
+      <p>&#169;Einnar Jacob Ilag</p>
     </footer>
   </body>
 </html>
