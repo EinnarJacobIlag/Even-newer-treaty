@@ -10,11 +10,11 @@
 body {
   background-color: #f0eeed;
 
-  margin: 0;
-
   font-size: 1.6rem;
 
   font-family: sans-serif;
+
+  margin: 0 auto;
 }
 
 /*
@@ -37,18 +37,18 @@ header {
   padding-bottom: 10px;
 
   position: fixed;
-  left: 0;
-  right: 0;
+  left: 0%;
+  right: 0%;
 }
 
 /*
   This makes the size of the text 40px. This also
-  moves text 10 px to the right and 10 px down from
+  moves text 30 px to the right and 30 px down from
   the original position
 */
 h1 {
   font-size: 40px;
-  transform: translate(10px, 30px);
+  transform: translate(30px, 30px);
   font-family: serif, sans-serif;
 }
 

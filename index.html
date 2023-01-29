@@ -1,3 +1,14 @@
+<!--
+  •Name: Einnar Jacob De Castro Ilag
+  •Course: Web Development
+  •Teacher: Mr. Hardman
+  •School: Pembina Trails Early College, Fort Richmond Collegiate
+  •Date Last Modified: January 28, 2023
+
+  Colour pallete is inspired by colours shown from http://colormind.io/bootstrap/
+  I chose blue and green for my website because they represent the water and land of the earth. Which is part of the Treaty 1 agreement.
+  Blue also represents peace, harmony and unity which is the whole reason for a treaty.
+-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,21 +18,58 @@
     <title>Home Page</title>
     <link rel="stylesheet" href="stylesheets/main.css" />
     <style>
+      /*
+        This makes the z axis of the header +1 which
+        basically puts it above other content on the page
+      */
       header {
         z-index: 1;
+        transform: translateY(-260px);
       }
 
-      .first-image {
+      /*
+        This adds 100 margin to the top 200 padding to the top of 
+        anything that has the class first-images.
+
+        This  makes the bottom margin and bottom padding of the 
+        class first-images 0
+      */
+      .first-images {
         margin-top: 100px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 200px;
       }
 
+      .coin {
+        transform: translate(150px, -309px);
+      }
+
+      .flag {
+        transform: translate(1220px, -300px);
+      }
+
+
+      /* 
+        This adds 300 margin to the top and bottom of the first div on this webpage
+      */
       .div-one {
         margin-top: 300px;
         margin-bottom: 300px;
       }
+
+      /*
+        This moves the text to the center of the webpage, this also makes the size 
+        of the text 100px, and adds 260px of margin around the text.
+      */
+      .title-home-page {
+        text-align: center;
+        font-size: 100px;
+        padding-top: 200px;
+        margin: 260px;
+      }
     </style>
   </head>
-  <!-- Colour palette from https://www.schemecolor.com/pastel-green-blue-yellow.php-->
   <body>
     <header>
       <h1>Treaty 1 (WIP)</h1>
@@ -36,21 +84,18 @@
         This moves the content down so that my header doesn't
         look out of place
       -->
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <nav>
-        <!--<a class="button" href="second-page.html">What Is Treaty 1?</a>-->
-      </nav>
+      <!-- This is the start of the content -->
       <section>
-        <div class="first-image">
-          <!-- Indigenous Services Minister Marc Miller spoke at the 150th anniversary of 
-            the signing of Treaty 1 on Tuesday. He acknowledged trust between Canada and
-            Indigenous people is thin. (Stephanie Cram/CBC) -->
-          <img src="images/home-first.webp" width="auto" height="auto" />
+        <h2 class="title-home-page">Welcome to Treaty 1</h2>
+        <div class="first-images">
+          <img
+            src="images/home-first.webp"
+            width="1180"
+            height="663"
+            alt="A picture of Marc Miller, an Indigenous
+          Service Minister who is speaking at the 150th anniversary of the Treaty 1 siging." />
+          <img class="coin" src="images/Treaty-1-coin.jpg" width="350" height="350"/>
+          <img class="flag" src="images/treaty-1-flag.gif" width="600" height="300"/>
         </div>
       </section>
       <section>
